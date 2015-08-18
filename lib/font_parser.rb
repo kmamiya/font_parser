@@ -10,6 +10,8 @@ module FontParser
   autoload :Base,       'font_parser/base'
   autoload :Name,       'font_parser/ttf/name'
 
+  VERSION = '0.01'
+
   def self.parse( font_path )
     ParsedFont.new( font_path )
   end
